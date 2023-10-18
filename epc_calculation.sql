@@ -23,9 +23,9 @@ epc_calculation AS (
 
 daily_report AS (
     SELECT date,
-           COALESCE(partner, 0),
-           COALESCE(clicks, 0),
-           COALESCE(commission, 0),
+           COALESCE(partner, 0) AS  Partner,
+           COALESCE(clicks, 0) AS Clicks,
+           COALESCE(commission, 0) AS Commission,
            COALESCE(epc, 0) AS EPC
     FROM epc_calculation
 )
