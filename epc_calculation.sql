@@ -1,9 +1,9 @@
 -- CREATE the TABLE joins
 WITH raw_data AS (
     SELECT d.date,
-           COALESCE(p.partnername, 0) AS partner,
-           COALESCE(cp.clicksum, 0) AS clicks,
-           COALESCE(t.comission, 0) AS commission
+           p.partnername AS partner,
+           cp.clicksum AS clicks,
+           t.comission AS commission
     FROM dim_date d
     LEFT JOIN transactions t ON d.date = t.date    
     LEFT JOIN click_partner cp ON d.date = cp.date
@@ -23,9 +23,9 @@ epc_calculation AS (
 
 daily_report AS (
     SELECT date,
-           partner,
-           clicks,
-           commission,
+           COALESCE(partner, 0),
+           COALESCE(clicks, 0),
+           COALESCE(commission, 0),
            COALESCE(epc, 0) AS EPC
     FROM epc_calculation
 )

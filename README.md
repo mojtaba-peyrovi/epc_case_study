@@ -9,7 +9,7 @@ __Solution:__ There will be an extra table called dim_date created which handles
 
 In order to see the end results please run the following scripts sequentially in MySQL:
 
-1- tables_creation.sql
+1- tables_creation.sql <br>
 2- insert_data_into_tables.sql
 
 The created tables will look like this:<br>
