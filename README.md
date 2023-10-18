@@ -14,15 +14,15 @@ In order to see the end results please run the following scripts sequentially in
 
 The created tables will look like this:<br>
 __teansactions:__
-<img src='./screenshots/Screenshot 2023-10-18 213315.png'>
+<img src='./screenshots/Screenshot 2023-10-18 213315.png'><br> 
 
 
-<br> __click_partner:__
-<img src='./screenshots/Screenshot 2023-10-18 213554.png'>
+__click_partner:__
+<img src='./screenshots/Screenshot 2023-10-18 213554.png'><br> 
 
 
-<br> __partner:__<br>
-<img src='./screenshots/Screenshot 2023-10-18 213656.png'>
+__partner:__
+<img src='./screenshots/Screenshot 2023-10-18 213656.png'><br> 
 
 
 
