@@ -22,7 +22,7 @@ The created tables will look like this:<br>
 
 
 <br>__partner:__<br>
-<img src='./screenshots/Screenshot 2023-10-18 213656.png'><br> 
+<img src='./screenshots/Screenshot 2023-10-19 055621.png'><br> 
 
 
 <br>__dim_date:__<br>
