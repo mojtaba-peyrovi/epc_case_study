@@ -25,6 +25,8 @@ The created tables will look like this:<br>
 <img src='./screenshots/Screenshot 2023-10-18 213656.png'><br> 
 
 
+<br>__dim_date:__<br>
+<img src='./screenshots/Screenshot 2023-10-19 055452.png'><br> 
 
 3- epc_calculation.sql:
 Here is the final table:
