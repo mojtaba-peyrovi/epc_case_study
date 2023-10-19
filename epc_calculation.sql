@@ -7,7 +7,7 @@ WITH raw_data AS (
            t.comission AS commission
     FROM dim_date d
     LEFT JOIN transactions t ON d.date = t.date    
-    LEFT JOIN click_partner cp ON d.date = cp.date and t.partnerid = cp.prtnerid
+    LEFT JOIN click_partner cp ON d.date = cp.date AND t.partnerid = cp.prtnerid
     LEFT JOIN partner p ON t.partnerid = p.partnerid
     
 ),
