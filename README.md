@@ -29,7 +29,7 @@ The created tables will look like this:<br>
 3- epc_calculation.sql:
 Here is the final table:
 
-<img src='./screenshots/Screenshot 2023-10-18 223152.png'>
+<img src='./screenshots/Screenshot 2023-10-19 053450.png'>
 
 
 
