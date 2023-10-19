@@ -29,12 +29,12 @@ The created tables will look like this:<br>
 3- epc_calculation.sql:
 Here is the final table:
 
-<img src='./screenshots/Screenshot 2023-10-19 053450.png'>
+<img src='./screenshots/Screenshot 2023-10-19 054419.png'>
 
 
 
 In case of any further inquiries, please feel free to contact me. 
 
 
-Thank you!
+Thank you!<br>
 Moji
